@@ -1,5 +1,7 @@
 from tkinter import*
-
+def btnClick(number):
+    current=e.get()
+    
 mansLogs=Tk()
 mansLogs.title('Kalkalators')
 e=Entry(mansLogs,width=15,bd=10,font=("Arial Black",20),justify="right")
