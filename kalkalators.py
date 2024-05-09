@@ -2,6 +2,7 @@ from tkinter import*
 
 mansLogs=Tk()
 mansLogs.title('Kalkalators')
+e=Entry(mansLogs,width=15,bd=10,font=("Arial Black",20),justify="right")
 btn0=Button(mansLogs,text='0',padx='40',pady='20')
 btn1=Button(mansLogs,text='1',padx='40',pady='20')
 btn2=Button(mansLogs,text='2',padx='40',pady='20')
@@ -12,6 +13,8 @@ btn6=Button(mansLogs,text='6',padx='40',pady='20')
 btn7=Button(mansLogs,text='7',padx='40',pady='20')
 btn8=Button(mansLogs,text='8',padx='40',pady='20')
 btn9=Button(mansLogs,text='9',padx='40',pady='20')
+
+e.grid(row=0,column=0,columnspan=3)
 
 btn7.grid(row=1,column=0)
 btn8.grid(row=1,column=1)
