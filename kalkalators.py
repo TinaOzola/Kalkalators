@@ -1,7 +1,18 @@
 from tkinter import*
 def btnClick(number):
-    current=e.get()
-    
+    current=e.get()#nolasa sk
+    e.delete(0,END)#nodzēš
+    newNumber=str(current)+str(number)
+    e.insert(0,newNumber)#ievada displejā
+    return 0
+
+def btnCommand(command):
+               global number
+               global num1
+               global mathOp
+               mathOp=commandnum1=int(e.get())
+               e.delete(0,END)
+               return 0
 mansLogs=Tk()
 mansLogs.title('Kalkalators')
 e=Entry(mansLogs,width=15,bd=10,font=("Arial Black",20),justify="right")
