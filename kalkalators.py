@@ -13,6 +13,19 @@ btn7=Button(mansLogs,text='7',padx='40',pady='20')
 btn8=Button(mansLogs,text='8',padx='40',pady='20')
 btn9=Button(mansLogs,text='9',padx='40',pady='20')
 
+btn7.grid(row=1,column=0)
+btn8.grid(row=1,column=1)
+btn9. grid(row=1,column=2)
+
+btn4.grid(row=2,column=0)
+btn5.grid(row=2,column=1)
+btn6.grid(row=2,column=2)
+
+btn1.grid(row=3,column=0)
+btn2.grid(row=3,column=1)
+btn3.grid(row=3,column=2)
+
+btn0.grid(row=4,column=1)
 
 
 mansLogs.mainloop()
